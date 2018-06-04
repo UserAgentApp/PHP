@@ -1,0 +1,13 @@
+{
+    "name":"useragentapp/api",
+    "description":"PHP Library to access the APIs provided by useragent.app",
+    "license": "MIT",
+    "require":{
+        "php":"^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UserAgentApp\\API\\": "src"
+        }
+    }
+}
